@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background: url(bg.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.logoirlanda{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    padding: 10px;
+}
+
+.textoirlanda{
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+.opt{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.sub a{
+    color: white;
+    text-decoration: none;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header{
+    background: url(bg.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.casas-listado {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.casa {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.casa:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.casa img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.casa .info {
+    padding: 15px;
+    text-align: center;
+}
+
+.casa h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #4CAF50;
+}
+
+.casa p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #666;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.lalala{
+    color: black;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    padding: 10px;
+    color: white;
+
+ }
+ 
+ .lalale{
+    color: black;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    color: white;
+ } 
+
+.sub{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.nggr{
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-button {
+    margin-top: 10px;
+}
+
+.btn-contacto {
+    display: inline-block;
+    padding: 15px 29px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #4CAF50; 
+    border-radius: 25px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease;
+}
+
+.btn-contacto:hover {
+    background-color: #45a049; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px); 
+}

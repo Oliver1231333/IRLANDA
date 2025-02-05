@@ -1,0 +1,240 @@
+
+.nggr{
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.imagen-casa {
+    text-align: center;
+    margin-bottom: 2em;
+    padding-top: 30px;
+}
+
+.zoom-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.zoom-container img {
+    width: 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.zoom-container:hover img {
+    transform: scale(1.2);
+}
+
+.detalle-casa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.detalle-casa .tarjeta {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.detalle-casa .tarjeta h2 {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.detalle-casa .tarjeta ul {
+    list-style: none;
+    padding: 0;
+}
+
+.detalle-casa .tarjeta li {
+    margin-bottom: 0.8em;
+}
+
+.detalle-casa .tarjeta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.formulario-contacto {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.formulario-contacto h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.formulario-contacto button {
+    padding: 0.8em;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.3s;
+}
+
+.formulario-contacto button:hover {
+    background: #45A049;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 1em 2em;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.volver:hover {
+    background: #45A049;
+    transform: scale(1.05);
+}
+
+
+
+h1, h2, h3 {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #222;
+}
+
+p, li, label {
+    font-family: "Arial", sans-serif;
+    font-weight: normal;
+}
+.lalala{
+    color: black;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    padding: 10px;
+    color: white;
+
+ }
+ .lalale{
+    color: black;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    color: white;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.opt{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+header{
+    background: url(bg.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.logoirlanda{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    padding: 10px;
+}
+
+.sub a{
+    color: white;
+    text-decoration: none;
+}
+
+.sub{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
+.textoirlanda{
+color: white;
+    display: flex;
+
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-button {
+    margin-top: 10px;
+}
+
+.btn-contacto {
+    display: inline-block;
+    padding: 15px 29px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #4CAF50; 
+    border-radius: 25px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease;
+}
+
+.btn-contacto:hover {
+    background-color: #45a049; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px); 
+}

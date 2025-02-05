@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px 25px;
+    box-shadow: 0, 5px, 10px, rgb(0, 0, 0);
+}
+.Titulo{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    margin-top: 30px;
+    
+}
+.boton{
+    border-radius: 3%;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+form label{
+    margin-bottom: 25px;
+}
+
+form label .fa-solid{
+    font-size: 35px;
+    color: rgb(67, 139, 255);
+    margin-right: 10px;
+}
+
+input{
+    outline: none;
+    border: none;
+    color: rgb(12, 12, 12);
+    background-color: rgb(196, 196, 196);
+    border-bottom: solid 1px #1d201e;
+}
+
+.boton{
+    border-radius: 3%;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}/* Reset y configuración global */
+
+/* Estilo del header */
+header {
+    background: url(bg.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.logoirlanda {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.textoirlanda {
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+.opt {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.sub a {
+    color: white;
+    text-decoration: none;
+}
+
+.sub {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}

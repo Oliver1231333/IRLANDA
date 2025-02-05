@@ -1,0 +1,177 @@
+/* Reset y configuración global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo del header */
+header {
+    background: url(bg.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.logoirlanda {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    padding: 10px;
+}
+
+.textoirlanda {
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+.opt {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.sub a {
+    color: white;
+    text-decoration: none;
+}
+
+.sub {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Estilo del contenido */
+.about {
+    align-items: center;
+    padding-left: 30px;
+}
+
+.prego {
+    font-size: large;
+    padding-left: 60px;
+    color: #333;
+    font-weight: bold;
+}
+
+.propiedad {
+    border-radius: 30px;
+}
+
+.propiedad:hover {
+    transform: scale(1.12, 1.12);
+    transition: 0.2s;
+}
+
+/* Cuadros de información */
+.info-cuadros {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre cuadros */
+    margin: 20px auto;
+}
+
+.cuadro {
+    width: 320px;
+    height: auto;
+    background-color: #f9f9f9; /* Fondo blanco suave */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+    color: #333; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cuadro h2 {
+    margin: 0 0 10px;
+    font-size: 1.8rem;
+    color: #222; 
+}
+
+.cuadro p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.cuadro:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
+}
+
+.lalala {
+    color: black;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.lalale {
+    color: black;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-button {
+    margin-top: 10px;
+}
+
+.btn-contacto {
+    display: inline-block;
+    padding: 15px 29px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #4CAF50; 
+    border-radius: 25px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease;
+}
+
+.btn-contacto:hover {
+    background-color: #45a049; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px); 
+}
+
+.sexo {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nggr {
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-right: 20px;
+}

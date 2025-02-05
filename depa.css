@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+ 
+header{
+    background: url(bg.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.logoirlanda{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    padding: 10px;
+}
+
+.textoirlanda{
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+.opt{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.sub a{
+    color: white;
+    text-decoration: none;
+}
+
+.sub{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
+
+main {
+    padding: 2rem;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.departamento {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.departamento img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.departamento h3 {
+    margin: 1rem 0 0.5rem;
+    color: #0078d7;
+}
+
+.contacto {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto form label {
+    display: block;
+    margin: 0.5rem 0 0.25rem;
+}
+
+.contacto form input,
+.contacto form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto form button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto form button:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+
+.nggr{
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
